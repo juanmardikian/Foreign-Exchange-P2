@@ -26,7 +26,7 @@ Show us what you've got!
 - Be styled with CSS.
 - Use Flexbox or CSS Grid for layouts.
 - Use functional components and class components appropriately.
-- Be deployed via GitHub and Surge.
+- Be deployed via GitHub or Surge.
 
 - **Optionally, you may incorporate a component library to design your app with approval**
 
