@@ -27,6 +27,7 @@ Show us what you've got!
 - Be built using Create React App.
 - Be styled with CSS.
 - Use Flexbox or CSS Grid for layouts.
+- 1 break point for Responsive Design.
 - Use functional components and class components appropriately.
 - Be deployed via GitHub or Surge.
 
