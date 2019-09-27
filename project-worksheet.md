@@ -9,6 +9,12 @@ Use this section to describe your final project and perhaps any links to relevan
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe.
 
+## API Snippet
+
+```
+Paste a snippet from your API here that shows the shape of the data
+```
+
 ### MVP/PostMVP - 5min
 
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
@@ -46,12 +52,6 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
 | Total | H | 6hrs| 5hrs | 5hrs |
 
-## Helper Functions
-Helper functions should be generic enought that they can be reused in other applications. Use this section to document all helper functions that fall into this category.
-
-| Function | Description | 
-| --- | :---: |  
-| Capitalize | This will capitalize the first letter in a string of text | 
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
