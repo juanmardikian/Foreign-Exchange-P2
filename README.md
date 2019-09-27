@@ -5,7 +5,7 @@ Let's kick it up a notch and build a modular and modern front end application us
 
 Like with project one, our Unit 2 project is a chance to be creative and build something you can be proud of. You will be working individually for this project, but we'll be guiding you along the process and helping as you go. 
 
-As part of this project, you'll be required to show your project to your instructors and classmates in a five minute presentation in front of the class. Your goal for this presentation is to extract the most important aspects of what went into building your project into easy-to-use language and practice speaking about your code.
+As part of this project, you'll be required to show your project to your instructors and classmates in an arcade style presentation. Your goal for this is to extract the most important aspects of what went into building your project into easy-to-use language and practice speaking about your code.
 
 Show us what you've got!
 
@@ -40,12 +40,11 @@ Show us what you've got!
 - Be written with kebab-case (dashes) CSS class names.  
 - Contain no `console.log()` or commented out code in final version.  
 - Use only React for DOM manipulation.  
-- No pre-loaded `create-react-app` files or code.
 
 ## Necessary Deliverables
 #### A README with the following:
 
-**Refer to the [project worksheet](https://git.generalassemb.ly/sei-nyc-pandas/project-2/blob/master/project-worksheet.md) file in this repo for structuring your README.**
+**Refer to the [project worksheet](https://git.generalassemb.ly/sei-nyc-oasis/project-2/blob/master/project-worksheet.md) file in this repo for structuring your README.**
 
 ###### For the proposal:
 - A collection of wireframes - hand-drawn or digitally created - outlining the important pages of your site, as well as the critical states of your project, drawing a component hierarchy would be a great way to indicate which components need state and which components need props.
@@ -59,7 +58,7 @@ Show us what you've got!
 	- If you plan on incorporating a component library, include a link in your proposal.
 
 #### For the project:
-- A git repository hosted on GitHub, with a link to your hosted project, and **frequent** commits dating back to the very beginning of the project (YOUR APP SHOULD BE LOCATED IN A SEPARATE STANDING REPO. DO NOT build your app in this repository. YOU MUST initiate a new repo on your GitHub account.) 
+- A git repository hosted on GitHub Enterprise, with a link to your hosted project, and **frequent** commits dating back to the very beginning of the project  Your `README.md` file should be the project worksheet. (YOUR APP SHOULD BE LOCATED IN A SEPARATE STANDING REPO. DO NOT build your app in this repository. YOU MUST initiate a new repo on your GitHub Enterprise account.) 
 
 <hr>
 
