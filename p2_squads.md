@@ -1,10 +1,10 @@
 # Squads
 
-## Brian's Squad
+## Steve's Squad
 TBD
 
-## Drake's Squad
+## Michael's Squad
 TBD
 
-## Maddy & David's Squad
+## Rachel's Squad
 TBD
