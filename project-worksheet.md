@@ -5,6 +5,24 @@
 
 Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
 
+
+## Project Schedule
+
+This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
+
+You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
+
+|  Day | Deliverable | Status
+|---|---| ---|
+|Jan 2rd| Project Prompt | Incomplete
+|Jan 3rd| Wireframes / Priority Matrix / Functional Components | Incomplete
+|Jan 5th| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Jan 6th| Pseudocode / actual code | Incomplete
+|Jan 7th| Initial Clickable Model  | Incomplete
+|Jan 8th| MVP | Incomplete
+|Jan 9th| Present | Incomplete
+
+
 ## Wireframes
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe.
