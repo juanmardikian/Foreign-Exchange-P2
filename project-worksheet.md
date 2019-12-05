@@ -53,7 +53,7 @@ Define the the React components and the architectural design of your app.
 
 ## Priority Matrix
 
-Add in a picture of your Priority Matrix(use x and y coordinates for priority and time.)
+Include a full list of features that have been prioritized based on the `Time and Importance` x and y Matrix.
 
 ## Functional Components
 ##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
