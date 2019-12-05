@@ -14,13 +14,13 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Jan 2rd| Project Prompt | Incomplete
-|Jan 3rd| Wireframes / Priority Matrix / Functional Components | Incomplete
-|Jan 5th| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Jan 6th| Pseudocode / actual code | Incomplete
-|Jan 7th| Initial Clickable Model  | Incomplete
-|Jan 8th| MVP | Incomplete
-|Jan 9th| Present | Incomplete
+|Jan 23th| Project Prompt | Incomplete
+|Jan 23rd| Wireframes / Priority Matrix / Functional Components | Incomplete
+|Jan 24th| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Jan 25th| Pseudocode / actual code | Incomplete
+|Jan 26th| Initial Clickable Model  | Incomplete
+|Jan 27th| MVP | Incomplete
+|Jan 31tst| Present | Incomplete
 
 
 ## Wireframes
@@ -53,7 +53,7 @@ Define the the React components and the architectural design of your app.
 
 ## Priority Matrix
 
-Add in a picture of your Priority Matrix
+Add in a picture of your Priority Matrix(use x and y coordinates for priority and time.)
 
 ## Functional Components
 ##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
@@ -91,6 +91,5 @@ function reverse(string) {
 ## Issues and Resolutions
  Use this section to list of all major issues encountered and their resolution.
 
-#### SAMPLE.....
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
-**RESOLUTION**: Missing comma after first object in sources {} object
+## Change Log
+ Use this section to document what changes were made and the reasoning behind those changes.  
