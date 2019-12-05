@@ -6,5 +6,7 @@ TBD
 ## Michael's Squad
 TBD
 
-## Rachel's Squad
+## Erinn's Squad
 TBD
+
+## Desiree's Squad
