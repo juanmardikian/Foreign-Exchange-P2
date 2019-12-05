@@ -5,7 +5,7 @@ Let's kick it up a notch and build a modular and modern front end application us
 
 Like with project one, our Unit 2 project is a chance to be creative and build something you can be proud of. You will be working individually for this project, but we'll be guiding you along the process and helping as you go. 
 
-As part of this project, you'll be required to show your project to your instructors and classmates in an arcade style presentation. Your goal for this is to extract the most important aspects of what went into building your project into easy-to-use language and practice speaking about your code.
+As part of this project, you'll be required to show your project to your instructors and classmates in a presentation. Your goal for this is to extract the most important aspects of what went into building your project into easy-to-use language and practice speaking about your code.
 
 Show us what you've got!
 
