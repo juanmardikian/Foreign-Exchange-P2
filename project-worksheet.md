@@ -1,10 +1,64 @@
 # Project Overview
 
 
-## Project Description
+## Project Name
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+**Project decription:** Use this section to describe your project and what API or APIs it will utilize. List any relevant links, including the url to your live, deployed site.
 
+## API Snippet
+
+```
+Paste a snippet received from a call to your API that shows the shape of the data
+```
+
+## Wireframes
+
+Display all wireframes here with any neccessary descriptions.
+
+### MVP
+
+Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
+
+#### MVP EXAMPLE:
+- Find and use external api 
+- Render data on page 
+- Allow user to choose favorites 
+- Save their choices in firebase
+
+### Post-MVP
+
+List any additional functionality you would like to implement once MVP has been reached.
+
+#### PostMVP EXAMPLE:
+- Add user auth
+
+## React Component Hierarchy
+
+Include an image of your component hierarchy that shows the data flow and architectural design of your app.
+
+## Components
+
+Based on the initial logic defined in the previous section, try to breakdown the logic further into stateless/stateful components. 
+
+| Component | Description |Type |
+| --- | --- | --- |
+| Header | The Header receives props that render multiple nav titles and links | Functional |
+| Main | This component houses multiple rendered views through React Router and controls data received from the initial API call in state | Class |
+
+## Priority Matrix
+
+Include an image of your Priority Matrix (X is time and Y is priority)
+
+## Timeframes
+
+Timeframes are key in the development cycle. You have limited time to code and so much to accomplish!  Look at all of your planned files and components, and all of the areas of development you are planning and give an estimate of how long each one will take to complete. It's always best to pad the time to account for the unknown, so be sure to add an additional hour or two to play it safe. As you progress, you can update the "Time Invested" column to keep track of your hours, but that number should turn into "Actual Time" by the presentation day. Also, put a winter-themed gif at the top of your readme before you pitch to show you read the instructions thoroughly.
+
+
+| Component | Priority | Estimated Time | Time Invested | Actual Time |
+| --- | :---: |  :---: | :---: | :---: |
+| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
+| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
+| Total | H | 6hrs| 5hrs | 5hrs |
 
 ## Project Schedule
 
@@ -14,71 +68,20 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Jan 23th| Project Prompt | Incomplete
-|Jan 23rd| Wireframes / Priority Matrix / Functional Components | Incomplete
-|Jan 24th| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Jan 25th| Pseudocode / actual code | Incomplete
-|Jan 26th| Initial Clickable Model  | Incomplete
-|Jan 27th| MVP | Incomplete
+|Jan 24th| Project Pitch / Wireframes / Priority Matrix / Functional Components | Incomplete
+|Jan 27th| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Jan 28th| Pseudocode / actual code | Incomplete
+|Jan 29th| Initial Clickable Model  | Incomplete
+|Jan 30th| MVP | Incomplete
 |Jan 31tst| Present | Incomplete
 
-
-## Wireframes
-
-Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe.
-
-## API Snippet
-
-```
-Paste a snippet from your API here that shows the shape of the data
-```
-
-### MVP/PostMVP - 5min
-
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
-
-#### MVP EXAMPLE
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
-- Save their choices in firebase
-
-#### PostMVP EXAMPLE
-
-- Add user auth
-
-## React Component Hierarchy
-
-Define the the React components and the architectural design of your app.
-
-## Priority Matrix
-
-Include a full list of features that have been prioritized based on the `Time and Importance` x and y Matrix.
-
-## Functional Components
-##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
-
-Based on the initial logic defined in the previous sections try and breakdown the logic further into stateless/stateful components. 
-
-| Component | Description |Type |
-| --- | :---: | --- |
-| Header | This will render the header include the nav | |
-| Footer | This will render the footer include the nav | |
-
-## Timeframes
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Also, put a gif at the top of your Readme before you pitch, and you'll get a panda prize.
-
-
-| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
-| --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
-
-
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
+
+Use this section to list all supporting libraries and thier role in the project. React Router should be listed here at the very least.
+
+## Issues and Resolutions
+
+Use this section to list of all major issues you anticipate encountering during development and how you plan to tackle them. Be sure to update this section during development, documenting the actual resolutions you inacted, as well as any other unexpected obstacles you encountered along the way.
 
 ## Code Snippet
 
@@ -90,8 +93,5 @@ function reverse(string) {
 }
 ```
 
-## Issues and Resolutions
- Use this section to list of all major issues encountered and their resolution.
-
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.  
+ Use this section to document what changes were made in your overall planning and the reasoning behind those changes.  
