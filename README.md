@@ -21,43 +21,50 @@ Show us what you've got!
     - TRY OUT your API in the browser by making an axios request before you get too emotionally invested in it, to make sure it works the way you think it does...**YOU ARE REQUIRED TO SHOW US YOU CAN RECEIVE THE DATA FOR YOUR PROPOSAL**
 - Use React Router installed using npm.
 - Have at least 6 separate components, using a readable file structure.
-- Have at 1 component that is nested 3 components deep.
+- Have at 1 component that is 3 components deep.
 - Include a conditionally rendered component.
 - Be built using Create React App.
-- Be styled with CSS.
-- Use Flexbox or CSS Grid for layouts.
+- Be styled with CSS, using Flexbox or Grid for layouts.
 - 1 break point for Responsive Design.
-- Use functional components and class components appropriately.
+- Use class and functional components appropriately.
 - Be deployed via GitHub or Surge.
 
 - **Optionally, you may incorporate a component library to design your app with approval**
 
 #### Your code must:
 
-- Be properly indented.  
+- Be properly formatted and indented.  
 - Be written with semantic, camelCase JavaScript variable names.  
 - Be written with kebab-case (dashes) CSS class names.  
-- Contain no `console.log()` or commented out code in final version.  
-- Use only React for DOM manipulation.  
+- Contain no `console.log()` or commented out code in final version. Commented notes are fine. 
+- Use only React for DOM manipulation (no event listeners)
 
 ## Necessary Deliverables
-#### A README with the following:
+#### A comprehensive README.md file
 
-**Refer to the [project worksheet](https://git.generalassemb.ly/sei-nyc-oasis/project-2/blob/master/project-worksheet.md) file in this repo for structuring your README.**
+**Refer to the [project worksheet](https://git.generalassemb.ly/sei-nyc-blizzard/project-2/blob/master/project-worksheet.md) file in this repo for structuring your README.**
 
-###### For the proposal:
-- A collection of wireframes - hand-drawn or digitally created - outlining the important pages of your site, as well as the critical states of your project, drawing a component hierarchy would be a great way to indicate which components need state and which components need props.
-- A proposal including:
-	- A description of the project you'll be building with the objective described in non-technical language.
-	- An explanation of the major problems you plan to face while implementing this app.
-	- An explanation of how you foresee yourself solving the aforementioned problems.
-	- A visual of your component hierarchy.  
-	- A link to the API you plan to use.  
-	- A section clearly defining MVP and POST MVP.
-	- If you plan on incorporating a component library, include a link in your proposal.
+#### For the proposal:
+- A name and description of the project you'll be building with the objective described in non-technical language.
+- A link to the API you plan to use. 
+- A snippet of json from a working call to your API.
+- A collection of wireframes, hand-drawn or digitally created, outlining the important pages of your site, as well as the critical states of your project.
+- A section clearly defining MVP and POST MVP.
+- A component hierarchy that shows the flow of data between components.
+- A listing of all major components used in the app with a description of each.
+- A priority matrix showing the areas of development for your project on an x/y axis where x is time and y priority.
+- How long you anticipate spending on each area of development.
+- A project schedule showing what you plan to accomplish for each day of the project week.
+- If you plan on incorporating a component library, include a link in your proposal.
+- A list of obstacles you anticipate facing during development and how you plan to overcome them.
 
 #### For the project:
-- A git repository hosted on GitHub Enterprise, with a link to your hosted project, and **frequent** commits dating back to the very beginning of the project  Your `README.md` file should be the project worksheet. (YOUR APP SHOULD BE LOCATED IN A SEPARATE STANDING REPO. DO NOT build your app in this repository. YOU MUST initiate a new repo on your GitHub Enterprise account.) 
+- A git repository hosted on GitHub Enterprise, with a link to your hosted project.
+- **Frequent** commits dating back to the very beginning of the project.
+- DO NOT build your app in this repository. YOU MUST initiate a new repo on your GitHub Enterprise account.
+- Keep an updated list of obstacles you encountered during development and document their resolutions.
+- Include a code snippet in your readme of something you are proud of or something you find interesting and explain it.
+- Include a change log in your readme of any major changes you made to the planning of your project with a reasoning behind each change.
 
 <hr>
 
