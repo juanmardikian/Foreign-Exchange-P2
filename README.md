@@ -21,12 +21,12 @@ Show us what you've got!
     - TRY OUT your API in the browser by making an axios request before you get too emotionally invested in it, to make sure it works the way you think it does...**YOU ARE REQUIRED TO SHOW US YOU CAN RECEIVE THE DATA FOR YOUR PROPOSAL**
 - Use React Router installed using npm.
 - Have at least 6 separate components, using a readable file structure.
-- Have at 1 component that is 3 components deep.
-- Include a conditionally rendered component.
+- Have at 1 component that is nested 3 components deep.
+- Include a conditionally rendered component. One idea is rending a "loading" component while waiting for your API response.
 - Be built using Create React App.
 - Be styled with CSS, using Flexbox or Grid for layouts.
 - 1 break point for Responsive Design.
-- Use class and functional components appropriately.
+- Use class and functional components appropriately. If you use all functional components use hooks, class will use lifecyle methods. 
 - Be deployed via GitHub or Surge.
 
 - **Optionally, you may incorporate a component library to design your app with approval**
