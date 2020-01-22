@@ -77,7 +77,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Additional Libraries
 
-Use this section to list all supporting libraries and thier role in the project. React Router should be listed here at the very least.
+Use this section to list all supporting libraries and thier role in the project. React Router Dom and Axios should be listed here at the very least.
 
 ## Issues and Resolutions
 
