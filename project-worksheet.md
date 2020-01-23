@@ -85,7 +85,7 @@ Use this section to list of all major issues you anticipate encountering during 
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
+Use this section to include a brief code snippet you are proud of, along with a brief description of why.
 
 ```
 function reverse(string) {
