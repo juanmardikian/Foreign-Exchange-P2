@@ -1,12 +1,28 @@
 # Squads
 
 ## Steve's Squad
-TBD
+* Alexander
+* Anthony
+* Jose
+* Michael
+* Samantha
 
 ## Michael's Squad
-TBD
+* Effie
+* Jeff
+* Jeremy
+* Tara
+* Ro
 
 ## Erinn's Squad
-TBD
+* Brandon
+* Errol
+* Rachel
+* Mardikian
+* Jennifer
 
 ## Ang's Squad
+* Disney
+* Trevor
+* Stephen
+* Donald
