@@ -18,8 +18,8 @@ Show us what you've got!
     - Pull data into the application using an API  
         [List of Public APIs](https://github.com/toddmotto/public-apis)  
         [More APIs](https://github.com/abhishekbanthia/Public-APIs)  
-    - TRY OUT your API in the browser by making an axios request before you get too emotionally invested in it, to make sure it works the way you think it does...**YOU ARE REQUIRED TO SHOW US YOU CAN RECEIVE THE DATA FOR YOUR PROPOSAL**
-- Use React Router installed using npm. At least 2 functional routes.
+    - TRY OUT your API in the browser, or with Postman, by making an axios request to make sure it works the way you expect it to. **YOU ARE REQUIRED TO SHOW US YOU CAN RECEIVE THE DATA FOR YOUR PROPOSAL**
+- Use React Router installed using npm or yarn. At least 2 functional routes.
 - Have at least 6 separate components, using a readable file structure.
 - Have at 1 component that is nested 3 components deep.
 - Include a conditionally rendered component. One idea is rending a "loading" component while waiting for your API response.
