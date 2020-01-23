@@ -22,7 +22,8 @@ Show us what you've got!
 - Use React Router installed using npm or yarn. At least 2 functional routes.
 - Have at least 6 separate components, using a readable file structure.
 - Have at 1 component that is nested 3 components deep.
-- Include a conditionally rendered component. One idea is rending a "loading" component while waiting for your API response.
+- Include a conditionally rendered component.
+    - Ideas for conditional rendering could include a component that appears or disappears on a click, a "loading" component that displays while the user waits for data to be retrieved from the API, or even a component with messages for error handling.
 - Be styled with CSS, with at least 1 break point for Responsive Design. Flexbox and Grid are highly encouraged.
 - Use class and functional components appropriately. If you use all functional components use hooks, class components will use lifecyle methods.
 - Be deployed via GitHub or Surge.
