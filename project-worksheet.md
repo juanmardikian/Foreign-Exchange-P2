@@ -3,17 +3,98 @@
 
 ## Project Name
 
-**Project decription:** Use this section to describe your project and what API or APIs it will utilize. List any relevant links, including the url to your live, deployed site.
+A Website where it will show you the different markets and where you can chose and specific market and see a specific stock
 
 ## API Snippet
 
-```
-Paste a snippet received from a call to your API that shows the shape of the data
-```
-
+{
+    "symbols_requested": 3,
+    "symbols_returned": 3,
+    "data": [
+        {
+            "symbol": "SNAP",
+            "name": "Snap Inc.",
+            "currency": "USD",
+            "price": "19.26",
+            "price_open": "19.18",
+            "day_high": "19.43",
+            "day_low": "18.91",
+            "52_week_high": "19.53",
+            "52_week_low": "5.91",
+            "day_change": "0.16",
+            "change_pct": "0.84",
+            "close_yesterday": "19.10",
+            "market_cap": "26963423232",
+            "volume": "18041595",
+            "volume_avg": "27529528",
+            "shares": "1138349952",
+            "stock_exchange_long": "New York Stock Exchange",
+            "stock_exchange_short": "NYSE",
+            "timezone": "EST",
+            "timezone_name": "America/New_York",
+            "gmt_offset": "-18000",
+            "last_trade_time": "2020-01-23 15:59:59",
+            "pe": "N/A",
+            "eps": "-0.72"
+        },
+        {
+            "symbol": "TWTR",
+            "name": "Twitter, Inc.",
+            "currency": "USD",
+            "price": "33.88",
+            "price_open": "33.99",
+            "day_high": "34.36",
+            "day_low": "33.72",
+            "52_week_high": "45.86",
+            "52_week_low": "28.63",
+            "day_change": "-0.14",
+            "change_pct": "-0.41",
+            "close_yesterday": "34.02",
+            "market_cap": "26302976000",
+            "volume": "12284666",
+            "volume_avg": "14457242",
+            "shares": "776356992",
+            "stock_exchange_long": "New York Stock Exchange",
+            "stock_exchange_short": "NYSE",
+            "timezone": "EST",
+            "timezone_name": "America/New_York",
+            "gmt_offset": "-18000",
+            "last_trade_time": "2020-01-23 15:59:59",
+            "pe": "16.51",
+            "eps": "2.05"
+        },
+        {
+            "symbol": "VOD.L",
+            "name": "Vodafone Group plc",
+            "currency": "GBX",
+            "price": "154.20",
+            "price_open": "153.16",
+            "day_high": "155.02",
+            "day_low": "152.08",
+            "52_week_high": "169.46",
+            "52_week_low": "122.22",
+            "day_change": "1.50",
+            "change_pct": "0.98",
+            "close_yesterday": "152.70",
+            "market_cap": "543183208709",
+            "volume": "46118281",
+            "volume_avg": "71030855",
+            "shares": "26770980867",
+            "stock_exchange_long": "London Stock Exchange",
+            "stock_exchange_short": "LSE",
+            "timezone": "GMT",
+            "timezone_name": "Europe/London",
+            "gmt_offset": "0",
+            "last_trade_time": "2020-01-23 16:37:00",
+            "pe": "N/A",
+            "eps": "-0.06"
+        }
+    ]
+}
 ## Wireframes
+It will be based in my last proyect, but mos
 
-Display all wireframes here with any neccessary descriptions.
+https://pages.git.generalassemb.ly/juanmardikian/MardikianInvestments/
 
 ### MVP
 
@@ -23,11 +104,11 @@ Carefully decided what is placed into your MVP as the client will expect this fu
 - Find and use external api 
 - Render data on page 
 - Allow user to choose favorites 
-- Save their choices in firebase
+
 
 ### Post-MVP
 
-List any additional functionality you would like to implement once MVP has been reached.
+I will try to add a favorite bar or searched. I will try to make it look the most professional I can 
 
 #### PostMVP EXAMPLE:
 - Add user auth
@@ -42,9 +123,8 @@ Based on the initial logic defined in the previous section, try to breakdown the
 
 | Component | Description |Type |
 | --- | --- | --- |
-| Header | The Header receives props that render multiple nav titles and links | Functional |
-| Main | This component houses multiple rendered views through React Router and controls data received from the initial API call in state | Class |
-
+| Header | The Header with a ticker of the prices of some stocks and a navigator for diferent markets and stocks
+| Main | Multiple grafics were the customer can choose the different markets 
 ## Priority Matrix
 
 Include an image of your Priority Matrix (X is time and Y is priority)
@@ -57,7 +137,7 @@ Timeframes are key in the development cycle. You have limited time to code and s
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
+| Working with API | H | 1hrs| 1hrs | 1hrs |
 | Total | H | 6hrs| 5hrs | 5hrs |
 
 ## Project Schedule
@@ -77,11 +157,12 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Additional Libraries
 
-Use this section to list all supporting libraries and thier role in the project. React Router Dom and Axios should be listed here at the very least.
+Axios
+React Router Dom
 
 ## Issues and Resolutions
 
-Use this section to list of all major issues you anticipate encountering during development and how you plan to tackle them. Be sure to update this section during development, documenting the actual resolutions you inacted, as well as any other unexpected obstacles you encountered along the way.
+How to render the api, how to get the data, how to code witout gettin most of the help
 
 ## Code Snippet
 
