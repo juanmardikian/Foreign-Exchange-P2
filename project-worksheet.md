@@ -1,9 +1,10 @@
 # Project Overview
 
+Foreing Exhxnge
 
 ## Project Name
 
-A Website based in the dollar currenci, to compare ratios with another currencies 
+A Website based in the dollar currency, to compare ratios with another currencies 
 ## API Snippet
 ```
 
