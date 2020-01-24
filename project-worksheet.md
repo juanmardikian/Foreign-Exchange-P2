@@ -3,117 +3,70 @@
 
 ## Project Name
 
-A Website where it will show you the different markets and where you can chose and specific market and see a specific stock
-
+A Website based in the dollar currenci, to compare ratios with another currencies 
 ## API Snippet
 ```
 
 {
-    "symbols_requested": 3,
-    "symbols_returned": 3,
-    "data": [
-        {
-            "symbol": "SNAP",
-            "name": "Snap Inc.",
-            "currency": "USD",
-            "price": "19.26",
-            "price_open": "19.18",
-            "day_high": "19.43",
-            "day_low": "18.91",
-            "52_week_high": "19.53",
-            "52_week_low": "5.91",
-            "day_change": "0.16",
-            "change_pct": "0.84",
-            "close_yesterday": "19.10",
-            "market_cap": "26963423232",
-            "volume": "18041595",
-            "volume_avg": "27529528",
-            "shares": "1138349952",
-            "stock_exchange_long": "New York Stock Exchange",
-            "stock_exchange_short": "NYSE",
-            "timezone": "EST",
-            "timezone_name": "America/New_York",
-            "gmt_offset": "-18000",
-            "last_trade_time": "2020-01-23 15:59:59",
-            "pe": "N/A",
-            "eps": "-0.72"
-        },
-        {
-            "symbol": "TWTR",
-            "name": "Twitter, Inc.",
-            "currency": "USD",
-            "price": "33.88",
-            "price_open": "33.99",
-            "day_high": "34.36",
-            "day_low": "33.72",
-            "52_week_high": "45.86",
-            "52_week_low": "28.63",
-            "day_change": "-0.14",
-            "change_pct": "-0.41",
-            "close_yesterday": "34.02",
-            "market_cap": "26302976000",
-            "volume": "12284666",
-            "volume_avg": "14457242",
-            "shares": "776356992",
-            "stock_exchange_long": "New York Stock Exchange",
-            "stock_exchange_short": "NYSE",
-            "timezone": "EST",
-            "timezone_name": "America/New_York",
-            "gmt_offset": "-18000",
-            "last_trade_time": "2020-01-23 15:59:59",
-            "pe": "16.51",
-            "eps": "2.05"
-        },
-        {
-            "symbol": "VOD.L",
-            "name": "Vodafone Group plc",
-            "currency": "GBX",
-            "price": "154.20",
-            "price_open": "153.16",
-            "day_high": "155.02",
-            "day_low": "152.08",
-            "52_week_high": "169.46",
-            "52_week_low": "122.22",
-            "day_change": "1.50",
-            "change_pct": "0.98",
-            "close_yesterday": "152.70",
-            "market_cap": "543183208709",
-            "volume": "46118281",
-            "volume_avg": "71030855",
-            "shares": "26770980867",
-            "stock_exchange_long": "London Stock Exchange",
-            "stock_exchange_short": "LSE",
-            "timezone": "GMT",
-            "timezone_name": "Europe/London",
-            "gmt_offset": "0",
-            "last_trade_time": "2020-01-23 16:37:00",
-            "pe": "N/A",
-            "eps": "-0.06"
-        }
-    ]
+    "rates": {
+        "CAD": 1.3131853194,
+        "HKD": 7.7725419121,
+        "ISK": 124.5129134572,
+        "PHP": 50.8309922972,
+        "DKK": 6.7720888083,
+        "HUF": 304.4947893068,
+        "CZK": 22.8001812415,
+        "GBP": 0.7640507476,
+        "RON": 4.3315813321,
+        "SEK": 9.548074309,
+        "IDR": 13595.7498867241,
+        "INR": 71.2913457182,
+        "BRL": 4.1761667422,
+        "RUB": 61.7754417762,
+        "HRK": 6.7435432714,
+        "JPY": 109.6148618034,
+        "THB": 30.5600362483,
+        "CHF": 0.9707294971,
+        "EUR": 0.9062075215,
+        "MYR": 4.0649750793,
+        "BGN": 1.7723606706,
+        "TRY": 5.9391934753,
+        "CNY": 6.9333031264,
+        "NOK": 9.0054372451,
+        "NZD": 1.5119166289,
+        "ZAR": 14.3710919801,
+        "USD": 1.0,
+        "MXN": 18.7739012234,
+        "SGD": 1.3511554146,
+        "AUD": 1.46144087,
+        "ILS": 3.452650657,
+        "KRW": 1168.210240145,
+        "PLN": 3.8572723154
+    },
+    "base": "USD",
+    "date": "2020-01-24"
 }
 ```
 ## Wireframes
-It will be based in my last proyect, but mos
+<img src="https://git.generalassemb.ly/juanmardikian/project-2/blob/master/wireframes.jpg">
 
-https://pages.git.generalassemb.ly/juanmardikian/MardikianInvestments/
 
 ### MVP
 
-Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
+The whole purpose will be to see different ratios of currencies compare agaist the mighty US dollar
 
 #### MVP EXAMPLE:
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
+- Find and use external api that works and five real data time
+- Display the comparation against other currencies
+- Allow user to choose favorites currencies
 
 
 ### Post-MVP
 
-I will try to add a favorite bar or searched. I will try to make it look the most professional I can 
+I will try to add a favorite bar or searched, and add charts and graphics in the web
 
 #### PostMVP EXAMPLE:
-- Add favourite stocks
+- Add favourite pair of currencies
 
 ## React Component Hierarchy
 
@@ -123,16 +76,18 @@ Hierarchy and architectural design of my app
 
 ## Components
 
-Based on the initial logic defined in the previous section, try to breakdown the logic further into stateless/stateful components. 
+
 
 | Component | Description |Type |
 | --- | --- | --- |
-| Header | The Header with a ticker of the prices of some stocks and a navigator for diferent markets and stocks
-|Nav Bar| Where the user can see diferent kind of markets 
-|Search Bar| Where the user can search for the specific stock he wants
-| Main | Multiple grafics were the customer can choose the different markets 
-| Specific chart| A component that show an specific chart
-|Footer| Where we will have another marquee and social media icons
+| Header | The Header with a ticker of the prices of some stocks and a navigator for diferent markets and stocks|Functional
+|Nav Bar| Where the user can see diferent kind of markets | Functional
+|Single Graphic| A graphic showing the development of one currency agaist another | Functional
+|Search Bar| Where the user can search for the specific stock he wants| Functional
+| Main | Multiple grafics were the customer can choose the different markets | Functional
+| Specific chart| A component that show an specific chart | Functional
+| Ticker| A simple ticker to display pair of currencies | Functional
+|Footer| Where we will have another marquee and social media icons| Functional
 
 ## Priority Matrix
 
@@ -143,27 +98,22 @@ Include an image of your Priority Matrix (X is time and Y is priority)
 
 ## Timeframes
 
-Timeframes are key in the development cycle. You have limited time to code and so much to accomplish!  Look at all of your planned files and components, and all of the areas of development you are planning and give an estimate of how long each one will take to complete. It's always best to pad the time to account for the unknown, so be sure to add an additional hour or two to play it safe. As you progress, you can update the "Time Invested" column to keep track of your hours, but that number should turn into "Actual Time" by the presentation day. Also, put a winter-themed gif at the top of your readme before you pitch to show you read the instructions thoroughly.
+I have no idea, I calculate that the hardest part will be trying to make the components and make them interact. Plus, my main goal is to finish the React part as soon as posible, get all the data from the API that I need and filtered, and start with the dinamic CSS and HTML in order to make it look great
 
 
-| Component | Priority | Estimated Time | Time Invested | Actual Time |
-| --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 1hrs| 1hrs | 1hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
+ 
 
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
+
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Jan 24th| Project Pitch / Wireframes / Priority Matrix / Functional Components | Incomplete
-|Jan 27th| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Jan 28th| Pseudocode / actual code | Incomplete
-|Jan 29th| Initial Clickable Model  | Incomplete
+|Jan 24th| Finish the roject worksheet / Start creating the app and components | Incomplete
+|Jan 27th| Get the data and start displaying it  | Incomplete
+|Jan 28th| Actual Code | Incomplete
+|Jan 29th| (HTML, CSS, etc.)  | Incomplete
 |Jan 30th| MVP | Incomplete
 |Jan 31tst| Present | Incomplete
 
@@ -174,11 +124,11 @@ React Router Dom
 
 ## Issues and Resolutions
 
-How to render the api, how to get the data, how to code witout gettin most of the help
+Learn React, how to base my whole project on React, and understand it
 
 ## Code Snippet
 
-Use this section to include a brief code snippet you are proud of, along with a brief description of why.
+Not yet, but probably axios
 
 ```
 function reverse(string) {
