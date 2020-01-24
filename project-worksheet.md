@@ -117,7 +117,8 @@ I will try to add a favorite bar or searched. I will try to make it look the mos
 
 ## React Component Hierarchy
 
-Include an image of your component hierarchy that shows the data flow and architectural design of your app.
+Hierarchy and architectural design of my app
+
 
 ## Components
 
