@@ -60,10 +60,11 @@ A Website based in the dollar currency, to compare ratios with another currencie
 
 - The whole purpose will be to see different ratios of currencies compare agaist the mighty US dollar
 
-#### MVP EXAMPLE:
 - Find and use external api that works and five real data time
+
 - Display the comparation against other currencies
-- Allow user to choose favorites currencies
+
+
 
 
 
@@ -106,7 +107,7 @@ Include an image of your Priority Matrix (X is time and Y is priority)
 
 ## Timeframes
 
-tled 
+
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Graphics| L | 8hrs| 0hrs | 0hrs |
