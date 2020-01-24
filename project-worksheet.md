@@ -113,7 +113,7 @@ Carefully decided what is placed into your MVP as the client will expect this fu
 I will try to add a favorite bar or searched. I will try to make it look the most professional I can 
 
 #### PostMVP EXAMPLE:
-- Add user auth
+- Add favourite stocks
 
 ## React Component Hierarchy
 
@@ -128,10 +128,18 @@ Based on the initial logic defined in the previous section, try to breakdown the
 | Component | Description |Type |
 | --- | --- | --- |
 | Header | The Header with a ticker of the prices of some stocks and a navigator for diferent markets and stocks
+|Nav Bar| Where the user can see diferent kind of markets 
+|Search Bar| Where the user can search for the specific stock he wants
 | Main | Multiple grafics were the customer can choose the different markets 
+| Specific chart| A component that show an specific chart
+|Footer| Where we will have another marquee and social media icons
+
 ## Priority Matrix
 
 Include an image of your Priority Matrix (X is time and Y is priority)
+<img src="https://git.generalassemb.ly/juanmardikian/project-2/blob/master/time%20priority.jpeg"
+     style="float: left; margin-right: 10px;" />
+
 
 ## Timeframes
 
