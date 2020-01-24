@@ -118,7 +118,9 @@ I will try to add a favorite bar or searched. I will try to make it look the mos
 ## React Component Hierarchy
 
 Hierarchy and architectural design of my app
-
+<img src="https://git.generalassemb.ly/juanmardikian/project-2/blob/master/app.jpg
+     style="float: left; margin-right: 10px;" />
+https://git.generalassemb.ly/juanmardikian/project-2/blob/master/app.jpg
 
 ## Components
 
