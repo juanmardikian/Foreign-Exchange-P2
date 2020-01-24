@@ -6,6 +6,7 @@
 A Website where it will show you the different markets and where you can chose and specific market and see a specific stock
 
 ## API Snippet
+```
 
 {
     "symbols_requested": 3,
@@ -91,6 +92,7 @@ A Website where it will show you the different markets and where you can chose a
         }
     ]
 }
+```
 ## Wireframes
 It will be based in my last proyect, but mos
 
