@@ -1,13 +1,11 @@
 # Project Overview
 
-Foreing Exhxnge
-
-## Project Name
+## Foreign Exchange
 
 A Website based in the dollar currency, to compare ratios with another currencies 
 ## API Snippet
 ```
-
+[ExchageRatesApi](https://exchangeratesapi.io/)
 {
     "rates": {
         "CAD": 1.3131853194,
@@ -54,7 +52,13 @@ A Website based in the dollar currency, to compare ratios with another currencie
 
 ### MVP
 
-The whole purpose will be to see different ratios of currencies compare agaist the mighty US dollar
+- In the right section, the 6 main pair of currencies. 
+
+- In the main section, a bunch of paired currencies to choose
+
+- By choosing one pair of currencies, the main section will display the ratio between them.
+
+- The whole purpose will be to see different ratios of currencies compare agaist the mighty US dollar
 
 #### MVP EXAMPLE:
 - Find and use external api that works and five real data time
@@ -62,12 +66,14 @@ The whole purpose will be to see different ratios of currencies compare agaist t
 - Allow user to choose favorites currencies
 
 
+
 ### Post-MVP
 
-I will try to add a favorite bar or searched, and add charts and graphics in the web
+- Favorites bar
+- Search history
+- Charts and graphics
+- Ticker that display pair of currencies
 
-#### PostMVP EXAMPLE:
-- Add favourite pair of currencies
 
 ## React Component Hierarchy
 
@@ -81,11 +87,12 @@ Hierarchy and architectural design of my app
 
 | Component | Description |Type |
 | --- | --- | --- |
-| Header | The Header with a ticker of the prices of some stocks and a navigator for diferent markets and stocks|Functional
+| APP | Control state for all house components |Hooks
+| Header | The Header with a ticker of the prices of some stocks and a navigator for diferent currencies|Functional
 |Nav Bar| Where the user can see diferent kind of markets | Functional
 |Single Graphic| A graphic showing the development of one currency agaist another | Functional
-|Search Bar| Where the user can search for the specific stock he wants| Functional
-| Main | Multiple grafics were the customer can choose the different markets | Functional
+|Search Bar| Where the user can search for the specific currency he wants| Functional
+| Main | Multiple grafics were the customer can choose the different pairs | Functional
 | Specific chart| A component that show an specific chart | Functional
 | Ticker| A simple ticker to display pair of currencies | Functional
 |Footer| Where we will have another marquee and social media icons| Functional
@@ -99,33 +106,40 @@ Include an image of your Priority Matrix (X is time and Y is priority)
 
 ## Timeframes
 
-I have no idea, I calculate that the hardest part will be trying to make the components and make them interact. Plus, my main goal is to finish the React part as soon as posible, get all the data from the API that I need and filtered, and start with the dinamic CSS and HTML in order to make it look great
-
-
+tled 
+| Component | Priority | Estimated Time | Time Invested | Actual Time |
+| --- | :---: |  :---: | :---: | :---: |
+| Graphics| L | 8hrs| 0hrs | 0hrs |
+| Working with API | H | 5hrs| 0hrs | 0hrs |
+| Components and Logic | H | 20hrs| 0hrs | 0hrs |
+| Searching Bar | H | 5hrs| 0hrs | 0hrs |
+| Total | H | 38hrs| 0hrs | 0hrs |
 
 ## Project Schedule
 
  
-
-
-
 |  Day | Deliverable | Status
 |---|---| ---|
 |Jan 24th| Finish the roject worksheet / Start creating the app and components | Incomplete
 |Jan 27th| Get the data and start displaying it  | Incomplete
 |Jan 28th| Actual Code | Incomplete
-|Jan 29th| (HTML, CSS, etc.)  | Incomplete
-|Jan 30th| MVP | Incomplete
+|Jan 29th| HTML, CSS, etc. Reach MVP  | Incomplete
+|Jan 30th| Post-MVP | Incomplete
 |Jan 31tst| Present | Incomplete
 
 ## Additional Libraries
 
 Axios
+
 React Router Dom
+
+
+
 
 ## Issues and Resolutions
 
-Learn React, how to base my whole project on React, and understand it
+Figuring out state, and and where to send the data (props)
+Solution: research and working with TA and class repos
 
 ## Code Snippet
 
