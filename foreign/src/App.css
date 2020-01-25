@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/*This applies from 0px to 600px --> MOBILE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.App {
+  text-align: center;
+}
+
+html,
+body {
+	height: 100vh;
+}
+
+body {
+	background: darksalmon;
+	font-family: 'Roboto', sans-serif;
+	color: #141414;
+}
+
+.container {
+  display: flex;
+}
+
+.header {
+  background: rgb(29, 92, 185);
+  height: 15vh;
+}
+
+.sider {
+  background: darkmagenta;
+  height: 80vh;
+}
+
+.main {
+  background: #81cfe0;
+  height: 80vh;
+}
+
+.footer {
+  background: maroon;
+  height: 10vh;
+}
+
+/* This applies from 600px onwards --> DESKTOP */
+@media (min-width: 600px) {
+  	html,
+    body {
+      background: yellow;
+    }
+  
+  .sider,
+  .main {
+    display: inline-block;
+    float: left;
+    height: 75vh;
+  }
+  
+  .sider {
+    width: 25%;
+  }
+  
+  .main {
+    width: 75%;
+  }
+  
+  .footer {
+    clear: both;
+  }
+}
