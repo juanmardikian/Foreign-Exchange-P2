@@ -31,6 +31,7 @@ function App() {
 
     setSelector1(coin1)
     calculator()
+    setCurrencies(null)
     
   }
 
@@ -40,6 +41,7 @@ function App() {
 
     setSelector2(coin2)
     calculator()
+    setCurrencies(null)
     
   }
 
@@ -74,6 +76,7 @@ function clickSubmit()
     } else {
       setTheImput(headerImput)
       calculator()
+      setCurrencies(null)
     }
 
 

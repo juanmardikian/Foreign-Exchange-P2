@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios'
+import OnePair from '../components/OnePair'
 
 function Main(props) {
     console.log(props.currencies)
@@ -33,9 +33,7 @@ function Main(props) {
 
                
 
-                    <h1 className='diplayedCurrencies'>{props.theImput} {props.selector1} = {props.calcResult && props.calcResult.toFixed(3)} {props.selector2}</h1>
-                    {console.log(props.calcResult)}
-                
+                    <OnePair calcResult={props.calcResult} theImput={props.theImput} selector1={props.selector1} selector2={props.selector2}/>
 
 
             </div>
