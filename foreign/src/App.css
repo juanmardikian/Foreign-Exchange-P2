@@ -1,5 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@import url('https://fonts.googleapis.com/css?family=Asset&display=swap');
 
 /*This applies from 0px to 600px --> MOBILE */
 * {
@@ -20,7 +21,7 @@ body {
 
 body {
 	background: darksalmon;
-	font-family: 'Roboto', sans-serif;
+  
 	color: #141414;
 }
 
@@ -34,19 +35,69 @@ body {
 }
 
 .sider {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
   background: darkmagenta;
   height: 80vh;
 }
+.siderSearch{
+ width:100%;
+}
+/* Icons */
+
+.currencyIcons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+width:50%;
+
+}
+
+
+
+
+.Icon{
+max-width: 100px;
+}
+
+.Icon:hover{
+  -webkit-filter: invert(100%) !important;
+  transform: scale(1.2);
+  transition: all  ease-in-out .2s;
+}
+
+
 
 .main {
-  background: #81cfe0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background:lightblue;
   height: 80vh;
 }
+
+.diplayedCurrencies{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ width:100%;
+ 
+}
+
+
+
+
+
 
 .footer {
   background: maroon;
   height: 10vh;
 }
+
+
+
 
 /* This applies from 600px onwards --> DESKTOP */
 @media (min-width: 600px) {
@@ -57,7 +108,6 @@ body {
   
   .sider,
   .main {
-    display: inline-block;
     float: left;
     height: 75vh;
   }
@@ -65,6 +115,15 @@ body {
   .sider {
     width: 25%;
   }
+
+  .currencyIcons{
+
+    width:100%;
+    }
+    .Icon{
+      max-width: 75px;
+      }
+  
   
   .main {
     width: 75%;

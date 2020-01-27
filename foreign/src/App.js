@@ -10,45 +10,49 @@ import Footer from './components/Footer'
 
 function App() {
 
-  const [currencies, setCurrencies] = useState([])
+  const [currencies, setCurrencies] = useState(null)
 
-  useEffect(() => {
-    const url = 'https://api.exchangeratesapi.io/latest?base=USD'
-    axios.get(url)
-      .then(res => {
-        setCurrencies(res.data)
-      })
-  }, [])
+  // useEffect(() => {
+  //   const url = 'https://api.exchangeratesapi.io/latest?base=USD'
+  //   axios.get(url)
+  //     .then(res => {
+  //       setCurrencies(res.data)
+  //     })
+  // }, [])
+
+function changeCurrency(e){
+const coin = e.currentTarget.dataset.name.toUpperCase()
+handleRequest(coin)
+}
+
+
+function handleRequest(coin){
+  let url =''
+  if (coin != undefined){
+    url = `https://api.exchangeratesapi.io/latest?base=${coin}`
+  } else {
+    url = `https://api.exchangeratesapi.io/latest`
+    currencies.rates.EUR = 1
+    console.log(currencies.rates.EUR)
+  }
+  axios.get(url)
+    .then(res => {
+      setCurrencies(res.data)
+      console.log(res.data)
+      
+    })
+}
 
 
 
   return (
     <div className="App">
-      {console.log(currencies)}
       <Header />
-      <Sider />
-      <Main />
+      <Sider changeCurrency={changeCurrency}/>
+      <Main currencies={currencies} />
       <Footer />
 
-      {/* <main></main>
-      <Route exact path='/'  ><Heroes heroes={heroes} /></Route>
-       <Route exact path='/heros/:id' component={match => (<Profile match={match} />)} /> we are calling a profile from the route */}
-
-      {/*  <header>
-    <div class="filler">Header Content</div>
-  </header>
-
-  <section>
-    <div class="filler">Section Content</div>
-  </section>
-
-  <aside>
-    <div class="filler">Aside Content</div>
-  </aside>
-
-  <footer>
-    <div class="filler">Footer Content</div>
-  </footer> */}
+ 
 
     </div>
   );
