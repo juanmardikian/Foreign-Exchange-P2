@@ -10,50 +10,96 @@ import Footer from './components/Footer'
 
 function App() {
 
-  const [currencies, setCurrencies] = useState(null)
+  const [currencies, setCurrencies] = useState('')
 
-  // useEffect(() => {
-  //   const url = 'https://api.exchangeratesapi.io/latest?base=USD'
-  //   axios.get(url)
-  //     .then(res => {
-  //       setCurrencies(res.data)
-  //     })
-  // }, [])
-
-function changeCurrency(e){
-const coin = e.currentTarget.dataset.name.toUpperCase()
-handleRequest(coin)
-}
+  const [selector1, setSelector1] = useState('USD')
+  const [selector2, setSelector2] = useState('EUR')
+  const [calcResult, setCalcResult] = useState(calculator())  // we try to calculate the results for the header
+  const [theImput, setTheImput] = useState(1)  // whe have to set the state at 1, or it will give us 0 as result when we press the search button
 
 
-function handleRequest(coin){
-  let url =''
-  if (coin != undefined){
-    url = `https://api.exchangeratesapi.io/latest?base=${coin}`
-  } else {
-    url = `https://api.exchangeratesapi.io/latest`
-    currencies.rates.EUR = 1
-    console.log(currencies.rates.EUR)
+
+  function changeCurrency(e) {
+    const coin = e.currentTarget.dataset.name.toUpperCase()
+    handleRequest(coin)
   }
-  axios.get(url)
-    .then(res => {
-      setCurrencies(res.data)
-      console.log(res.data)
-      
-    })
-}
+
+
+  function selectorA(e) {
+    const coin1 = e.currentTarget.value
+    console.log(coin1)
+
+    setSelector1(coin1)
+    calculator()
+    
+  }
+
+  function selectorB(e) {
+    const coin2 = e.currentTarget.value
+    console.log(coin2)
+
+    setSelector2(coin2)
+    calculator()
+    
+  }
+
+
+
+  //this function will get the first selected and the second one
+  function calculator() {
+    // e.preventDefault()
+    let url = `https://api.exchangeratesapi.io/latest?base=${selector1}&symbols=${selector2}`
+
+    axios.get(url)
+      .then(res => {
+        setCalcResult(theImput * res.data.rates[selector2])
+
+        console.log(res.data.rates[selector2])
+        console.log(theImput * res.data.rates[selector2])
+        setCurrencies(null)
+
+
+      })
+  }
+
+  // function to calculate the number in the imput to submit
+  function updateTheVolumeOfCurrency(e) {
+    const headerImput = e.currentTarget.value
+    if (headerImput == '' || headerImput == undefined || headerImput == null || isNaN(headerImput)) {
+      setTheImput(1)
+    } else {
+      setTheImput(headerImput)
+      calculator()
+    }
+
+
+  }
+
+
+
+  // This function is for the icons on the sider
+  function handleRequest(coin) {
+
+    let url = `https://api.exchangeratesapi.io/latest?base=${coin}`
+
+    axios.get(url)
+      .then(res => {
+        setCurrencies(res.data)
+        console.log(res.data)
+
+
+
+      })
+  }
 
 
 
   return (
     <div className="App">
-      <Header />
-      <Sider changeCurrency={changeCurrency}/>
-      <Main currencies={currencies} />
+      <Header selectorA={selectorA} selectorB={selectorB} calculator={calculator} updateTheVolumeOfCurrency={updateTheVolumeOfCurrency} />
+      <Sider changeCurrency={changeCurrency} />
+      <Main currencies={currencies} calcResult={calcResult} theImput={theImput} selector1={selector1} selector2={selector2} />
       <Footer />
-
- 
-
     </div>
   );
 
