@@ -43,7 +43,11 @@ function App() {
     
   }
 
-
+function clickSubmit()
+{
+  setCurrencies(null)
+  calculator()
+}
 
   //this function will get the first selected and the second one
   function calculator() {
@@ -56,7 +60,7 @@ function App() {
 
         console.log(res.data.rates[selector2])
         console.log(theImput * res.data.rates[selector2])
-        setCurrencies(null)
+        
 
 
       })
@@ -96,7 +100,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header selectorA={selectorA} selectorB={selectorB} calculator={calculator} updateTheVolumeOfCurrency={updateTheVolumeOfCurrency} />
+      <Header selectorA={selectorA} selectorB={selectorB} calculator={clickSubmit} updateTheVolumeOfCurrency={updateTheVolumeOfCurrency} />
       <Sider changeCurrency={changeCurrency} />
       <Main currencies={currencies} calcResult={calcResult} theImput={theImput} selector1={selector1} selector2={selector2} />
       <Footer />

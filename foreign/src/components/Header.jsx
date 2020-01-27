@@ -83,7 +83,7 @@ function Header(props) {
 
             <form>
                 <input type="text" name="currency1" onChange={props.updateTheVolumeOfCurrency}/><br />
-                <button type="submit" value="Submit" onClick={props.calculator}>Submit</button><br />
+                <button type="submit" value="Submit" onClick={props.calculator}>RESET</button><br />
              
             </form>
 
