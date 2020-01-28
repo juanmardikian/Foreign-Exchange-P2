@@ -30,9 +30,64 @@ body {
 }
 
 .header {
-  background: rgb(29, 92, 185);
+  background: white);
   height: 15vh;
 }
+
+
+
+.selector {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  border: #141414 solid 2px;
+  background-color: rgba(69, 134, 219, 0.3);
+ 
+  font-size: large;
+  border-radius: 50px;
+  outline-style: none;
+  box-shadow: inset 0 -15px 30px rgba(0,0,0,0.4), 0 5px 10px rgba(0,0,0,0.5);
+  }
+  
+  .selector:hover{
+      color: white;
+      border: white solid 2px;
+  }
+  .selector:active{
+      color: white;
+      background-color: black;
+  }
+
+  .imputBox{
+    display: inline-block;
+    justify-content: center;
+    
+    align-items: center;
+    border: #141414 solid 2px;
+    background-color: rgba(69, 134, 219, 0.3);
+   
+    font-size: large;
+    color: black;
+    border-radius: 20px;
+    outline-style: none;
+    box-shadow: inset 0 -15px 30px rgba(0,0,0,0.4), 0 5px 10px rgba(0,0,0,0.5);
+
+  }
+
+.reset{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  border: #141414 solid 2px;
+  background-color: rgba(69, 134, 219, 0.3);
+ width: 160px;
+  font-size: large;
+  border-radius: 20px;
+  outline-style: none;
+  box-shadow: inset 0 -15px 30px rgba(0,0,0,0.4), 0 5px 10px rgba(0,0,0,0.5);
+
+}
+
 
 .sider {
   display: flex;
@@ -102,7 +157,7 @@ max-width: 100px;
 @media (min-width: 600px) {
   	html,
     body {
-      background: yellow;
+      background: white;
     }
   
   .sider,
@@ -122,8 +177,37 @@ max-width: 100px;
     .Icon{
       max-width: 75px;
       }
-  
-  
+      .selector {
+   
+        padding: 10px;
+        margin: 5px;
+       
+       
+        }
+        
+ 
+      
+        .imputBox{
+    
+          margin: 5px;
+          padding: 10px;
+        }
+        .reset{
+          display: inline-block;
+          justify-content: center;
+          align-items: center;
+          border: #141414 solid 2px;
+          background-color: rgba(69, 134, 219, 0.3);
+         width: 160px;
+          font-size: large;
+          border-radius: 20px;
+          outline-style: none;
+          box-shadow: inset 0 -15px 30px rgba(0,0,0,0.4), 0 5px 10px rgba(0,0,0,0.5);
+          margin: 5px;
+        
+        }
+        
+
   .main {
     width: 75%;
   }

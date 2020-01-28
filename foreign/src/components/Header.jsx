@@ -7,8 +7,8 @@ function Header(props) {
         <div className="header">
 
            
-            <div>
-                <select className='selecter1' onChange={props.selectorA} >
+            <div className='theSelector'>
+                <select className='selector' onChange={props.selectorA} >
                     <option value="USD">US Dollar</option>
                     <option value="EUR">Euro Dollar</option>
                     <option value="GBP">British Pound</option>
@@ -44,7 +44,7 @@ function Header(props) {
                     <option value="PLN">Polish Złoty</option>
                 </select>
 
-                <select className='selecter2' onChange={props.selectorB} defaultValue={'EUR'}>
+                <select className='selector' onChange={props.selectorB} defaultValue={'EUR'}>
                     <option value="USD">US Dollar</option>
                     <option value="EUR" >Euro Dollar</option>
                     <option value="GBP">British Pound</option>
@@ -82,8 +82,8 @@ function Header(props) {
             </div>
 
             <form>
-                <input type="text" name="currency1" onChange={props.updateTheVolumeOfCurrency}/><br />
-                <button type="submit" value="Submit" onClick={props.calculator}>RESET</button><br />
+                <input type="text" className='imputBox' placeholder={'Amount to Exchange...'} onChange={props.updateTheVolumeOfCurrency}/><br />
+                <button type="submit" className='reset' value="Submit" onClick={props.calculator}>RESET</button><br />
              
             </form>
 
