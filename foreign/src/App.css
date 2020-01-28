@@ -1,217 +1,194 @@
-
-
 @import url('https://fonts.googleapis.com/css?family=Asset&display=swap');
-
 /*This applies from 0px to 600px --> MOBILE */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
 .App {
   text-align: center;
 }
 
-html,
-body {
-	height: 100vh;
+html, body {
+  height: 100vh;
 }
 
 body {
-	background: darksalmon;
-  
-	color: #141414;
+  background: white;
+  color: #141414;
 }
 
-.container {
+/* .container {
   display: flex;
-}
+} */
 
 .header {
-  background: white);
-  height: 15vh;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+ 
 }
 
 
+.selector-container{
+  display: flex;
+    }
 
-.selector {
+.selector1, .selector2 {
   display: inline-block;
   justify-content: center;
   align-items: center;
   border: #141414 solid 2px;
   background-color: rgba(69, 134, 219, 0.3);
- 
-  font-size: large;
-  border-radius: 50px;
-  outline-style: none;
-  box-shadow: inset 0 -15px 30px rgba(0,0,0,0.4), 0 5px 10px rgba(0,0,0,0.5);
-  }
-  
-  .selector:hover{
-      color: white;
-      border: white solid 2px;
-  }
-  .selector:active{
-      color: white;
-      background-color: black;
-  }
-
-  .imputBox{
-    display: inline-block;
-    justify-content: center;
-    
-    align-items: center;
-    border: #141414 solid 2px;
-    background-color: rgba(69, 134, 219, 0.3);
-   
-    font-size: large;
-    color: black;
-    border-radius: 20px;
-    outline-style: none;
-    box-shadow: inset 0 -15px 30px rgba(0,0,0,0.4), 0 5px 10px rgba(0,0,0,0.5);
-
-  }
-
-.reset{
-  display: inline-block;
-  justify-content: center;
-  align-items: center;
-  border: #141414 solid 2px;
-  background-color: rgba(69, 134, 219, 0.3);
- width: 160px;
-  font-size: large;
+  margin: 3px;
+  font-size: 2vh;
   border-radius: 20px;
   outline-style: none;
-  box-shadow: inset 0 -15px 30px rgba(0,0,0,0.4), 0 5px 10px rgba(0,0,0,0.5);
-
+  box-shadow: inset 0 -15px 30px rgba(0, 0, 0, 0.4), 0 5px 10px rgba(0, 0, 0, 0.5);
 }
 
+.selector:hover {
+  color: white;
+  border: white solid 2px;
+}
+
+.selector:active {
+  color: white;
+  background-color: black;
+}
+
+.imputBox {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: #141414 solid 2px;
+  background-color: rgba(69, 134, 219, 0.3);
+  font-size: 2vh;
+  color: black;
+  border-radius: 20px;
+  outline-style: none;
+  box-shadow: inset 0 -15px 30px rgba(0, 0, 0, 0.4), 0 5px 10px rgba(0, 0, 0, 0.5);
+  margin: 3px;
+  padding: 3px;
+}
+
+
+.reset {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  border: #141414 solid 2px;
+  background-color: rgba(240, 9, 9, 0.3);
+  width: 140px;
+  font-size: 2vh;
+  border-radius: 20px;
+  outline-style: none;
+  box-shadow: inset 0 -15px 30px rgba(0, 0, 0, 0.4), 0 5px 10px rgba(0, 0, 0, 0.5);
+  margin: 5px;
+}
 
 .sider {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  
   background: darkmagenta;
   height: 80vh;
 }
-.siderSearch{
- width:100%;
-}
+
+/* .siderSearch {
+  width: 100%;
+} */
+
 /* Icons */
 
-.currencyIcons{
+.currencyIcons {
   display: flex;
   justify-content: center;
   align-items: center;
-width:50%;
-
+  width: 50%;
 }
 
-
-
-
-.Icon{
-max-width: 100px;
+.Icon {
+  max-width: 100px;
 }
 
-.Icon:hover{
+.Icon:hover {
   -webkit-filter: invert(100%) !important;
   transform: scale(1.2);
-  transition: all  ease-in-out .2s;
+  transition: all ease-in-out .2s;
 }
 
-
+/* Icons */
 
 .main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  background:lightblue;
+  background: lightblue;
   height: 80vh;
 }
 
-.diplayedCurrencies{
+.diplayedCurrencies {
   display: flex;
   justify-content: center;
   align-items: center;
-  width:100%;
- }
-
-
-
-
-
+  width: 100%;
+}
 
 .footer {
   background: maroon;
   height: 10vh;
 }
 
-
-
-
 /* This applies from 600px onwards --> DESKTOP */
+
 @media (min-width: 600px) {
-  	html,
-    body {
-      background: white;
-    }
-  
-  .sider,
-  .main {
+  html, body {
+    background: white;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .selector-container{
+display: flex;
+  }
+
+  .selector1, .selector2, .imputBox, .reset {
+    margin: 3px;
+    padding: 1px;
+  }
+  .selector1, .selector2 {
+    display: inline-block;
+    flex-direction: row;
+  }
+  .reset {
+    width: 100px;
+  }
+  .sider, .main {
     float: left;
     height: 75vh;
   }
-  
   .sider {
     width: 25%;
   }
-
-  .currencyIcons{
-
-    width:100%;
-    }
-    .Icon{
-      max-width: 75px;
-      }
-      .selector {
-   
-        padding: 10px;
-        margin: 5px;
-       
-       
-        }
-        
- 
-      
-        .imputBox{
-    
-          margin: 5px;
-          padding: 10px;
-        }
-        .reset{
-          display: inline-block;
-          justify-content: center;
-          align-items: center;
-          border: #141414 solid 2px;
-          background-color: rgba(69, 134, 219, 0.3);
-         width: 160px;
-          font-size: large;
-          border-radius: 20px;
-          outline-style: none;
-          box-shadow: inset 0 -15px 30px rgba(0,0,0,0.4), 0 5px 10px rgba(0,0,0,0.5);
-          margin: 5px;
-        
-        }
-        
-
+  .currencyIcons {
+    width: 100%;
+  }
+  .Icon {
+    max-width: 75px;
+  }
   .main {
     width: 75%;
   }
-  
   .footer {
     clear: both;
   }
