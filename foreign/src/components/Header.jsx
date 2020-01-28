@@ -5,7 +5,7 @@ function Header(props) {
     return (
 
         <div className="header">
-
+<div className='title'><h1>FOREIGN EXCHANGE</h1></div>
             <div className='selector-container'>
                 <div>
                     <select className='selector1' onChange={props.selectorA} >
@@ -86,8 +86,10 @@ function Header(props) {
             </div>
 
             <form>
-                <input type="text" className='imputBox' placeholder={'Amount to Exchange...'} onChange={props.updateTheVolumeOfCurrency} /><br />
+            <div className='selector-reset'>
+                <input type="text" className='imputBox' placeholder={'Amount to Exchange'} onChange={props.updateTheVolumeOfCurrency} /><br />
                 <button type="submit" className='reset' value="Submit" onClick={props.calculator}>RESET</button><br />
+                </div>
 
             </form>
 
